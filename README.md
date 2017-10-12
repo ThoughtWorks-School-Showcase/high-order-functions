@@ -1,6 +1,6 @@
 # JavaScript High Order Functions
 
-## Business Requirements:
+## Business Requirements:
 Refactor codebase with high order functions and eliminate all `for` statements.
 
 ## Practice Challenges:
