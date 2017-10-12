@@ -1,15 +1,26 @@
 'use strict';
 
+function find(collection, ch) {
+    for (let item of collection) {
+        if (item.key === ch) {
+            return item;
+        }
+    }
+
+    return null;
+}
+
 function summarize(collection) {
-    return collection.reduce((result, item) => {
-        let obj = result.find(o => o.key === item);
+    let result = [];
+    for (let item of collection) {
+        let obj = find(result, item)
         if (obj) {
             obj.count++;
         } else {
             result.push({key: item, count: 1});
         }
-        return result;
-    }, []);
+    }
+    return result;
 }
 
 function split(item) {
@@ -24,15 +35,16 @@ function push(result, key, count) {
 }
 
 function expand(collection) {
-    return collection.reduce((result, item) => {
+    let result = [];
+    for (let item of collection) {
         if (item.length === 1) {
             result.push(item);
         } else {
             let {key, count} = split(item);
             push(result, key, count);
         }
-        return result;
-    }, []);
+    }
+    return result;
 }
 
 module.exports = function countSameElements(collection) {
