@@ -1,30 +1,30 @@
-# JavaScript High Order Functions
+# JavaScript High-Order Functions
 
-## Business Requirements:
-Refactor codebase with high order functions and eliminate all `for` statements.
+## Business Requirement:
+Refactor codebase with JS high-order functions and eliminate all `for` statements.
 
 ## Practice Challenges:
 * Map an array to another array which has the length
-* Reduce an array to a value
-* Find specific element in an array
+* Caculate a value with array via reduce method
+* Find the specific element in an array
 * Filter an array
-* Determine whether an array including specific element
+* Determine whether a specific element is included in the array
 
-## Practice Requirements:
+## Practice Requirement:
 * Pass all tests
 * Eliminate all `for` statements
-* Commit frequently with readable commit messages via Git
-* Coding with shortcuts
+* Commit frequently with readable comment via Git
+* Coding with keyboard shortcuts
 
 ## Practice Output:
-You can find detailed requirements in the test code comments under `spec\section-n` directory. And you should put your code in the directory `main`.
-For example, the production code corresponds `spec/section-1/practice-1-spec.js` goes into `main/section-1/practice-1.js`.
+You can find the requirement detail in the test code comments under `spec\section-n` directory. And you should put your code in the directory `main`.
+For example, the production code of `spec/section-1/practice-1-spec.js` should be put into `main/section-1/practice-1.js`.
 
 ## Environment
 JavaScript ES6。
 
 ## How to begin：
-Open your terminal, change into any path and clone this repository:
+Open your terminal, change to any path and clone this repository:
 ```
 git clone https://github.com/tws-online-quiz/high-order-functions
 ```
@@ -40,13 +40,13 @@ Run specific test:
 ```
 node_modules/jasmine/bin/jasmine.js spec/section-1/practice-1-spec.js
 ```
-You can find these two key folders when you open the repository with your favorite code editor:
+You can find these two key folders when you open the repository with your favorite coding editor:
 ```
 spec  //Test code, stands for specifications
 src   //Source code
 ```
 
-## Resources
+## Learning Resource
 1. [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 2. [JavaScript Code Camp](https://www.freecodecamp.org/challenges/comment-your-javascript-code)
 3. [ECMAScript 6 Features](http://es6.ruanyifeng.com/)
