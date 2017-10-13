@@ -26,7 +26,7 @@ JavaScript ES6。
 ## How to begin：
 Open your terminal, change to any path and clone this repository:
 ```
-git clone https://github.com/tws-online-quiz/high-order-functions
+git clone `this repo site`
 ```
 Install dependencies:
 ```
